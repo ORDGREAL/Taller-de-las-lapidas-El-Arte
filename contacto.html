@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        img {
+            width: 100px;
+            max-width: 80%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            margin: 20px auto;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a.button {
+            display: inline-block;
+            background-color: #25D366;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        a.button:hover {
+            background-color: #1ebe5b;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #1f1f1f;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #ccc;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+    </header>
+
+    <main>
+        <img src="imagenes/whatsapp.png" alt="WhatsApp">
+        <p>Envíanos un mensaje a nuestro WhatsApp:</p>
+        <p><strong>8681077573</strong></p>
+        <a class="button" href="https://wa.me/5218681077573" target="_blank">Contactar por WhatsApp</a>
+    </main>
+
+    <footer>
+        @ 2025 ORDG - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
