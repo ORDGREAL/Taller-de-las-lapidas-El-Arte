@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            width: 300px;
+            max-width: 90%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social img {
+            width: 80px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #1f1f1f;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        #toby {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            z-index: 1000;
+        }
+        #toby-corner:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            #toby-corner {
+                width: 50px;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TALLES DE LAS LAPIDAS:</h1>
+        <h2>"EL ARTE"</h2>
+        <p>Aqui encontraras todo relacionado a nuestro trabajo.</p>
+    </header>
+
+    <main>
+        <section>
+            <img src="imagenes/foto4.png" alt="Imagen principal">
+        </section>
+
+        <section class="social">
+            <a href="https://www.facebook.com/profile.php?id=100070833224637" target="_blank">
+                <img src="imagenes/facebook.png" alt="Facebook">
+            </a>
+            <p>CONTACTANOS!!!</p>
+            <a href="contacto.html">Haz clic aqui para contactarnos</a>
+        </section>
+
+        <section>
+            <a href="https://ordg.itch.io/undertale" target="_blank">
+                <img id="toby" src="imagenes/toby.png" alt="Toby Fox">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 ORDG - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
